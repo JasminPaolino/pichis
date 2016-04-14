@@ -1,0 +1,16 @@
+form {
+	background-color: #ecf0f1;
+}
+form header {
+	background-color: #303F9F;
+	color: white;
+	margin-bottom: 3%;
+}
+
+form header h3 {
+	text-align: center;
+	padding: 0.5em;
+}
+.form-horizontal {
+	padding-bottom: 0.5%;
+}

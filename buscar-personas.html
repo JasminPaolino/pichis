@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="buscar-personas.css">
+</head>
+<body>
+	<div class="container">
+		<!--<h2 class="pull-right">Administración de Personas</h2> -->
+		<form class="form-horizontal">
+			<header><h3 class="pull-center">Administración de Personas</h3></header>
+				
+			<!-- NOMBRE-->
+			<div class="form-group">
+				<label for="nombre" class="control-label col-xs-2 col-sm-2 col-md-offset-1">Nombre:</label>
+				<div class="col-xs-2 col-sm-2">
+					<input type="text" class="form-control col-md-offset-1" id="nombre" placeholder="Nombre"></input>
+				</div>
+				<label for="apellidos" class="control-label col-xs-2 col-sm-2 col-md-offset-1">Apellidos:</label>
+				<div class="col-xs-2 col-sm-2">
+					<input type="text" class="form-control col-md-offset-1" id="apellidos" placeholder="Apellidos"></input>
+				</div>
+			</div>
+			<!--APELLIDOS
+			<div class="form-group">
+				<label for="apellidos" class="control-label col-xs-2 col-sm-2 col-md-offset-1">Apellidos:</label>
+				<div class="col-xs-2 col-sm-2">
+					<input type="text" class="form-control col-md-offset-1" id="apellidos" placeholder="Apellidos"></input>
+				</div>
+			</div>		 -->		
+
+			<!-- TIPO DE DOC-->
+			<div class="form-group">
+				<label for="option" class="control-label col-xs-2 col-md-2 col-md-offset-1">Tipo de documento:</label>
+				<div class="col-xs-2 col-md-2">
+					<select class="form-control col-md-offset-1" name="" id="option">
+						<option value="">DNI</option>
+						<option value="">LE</option>
+						<option value="">LC</option>
+					</select>
+				</div>
+				<label for="nrodoc" class="control-label col-xs-2 col-sm-2 col-md-offset-1">Número de documento:</label>
+				<div class="col-xs-2 col-sm-2">
+					<input type="text" class="form-control col-md-offset-1" id="nrodoc" placeholder="Nro Documento"></input>
+				</div>
+			</div>	
+
+			<!-- NRO DE DOC
+			<div class="form-group">
+				<label for="nrodoc" class="control-label col-xs-2 col-sm-2 col-md-offset-1">Número de documento:</label>
+				<div class="col-xs-2 col-sm-2">
+					<input type="text" class="form-control col-md-offset-1" id="nrodoc" placeholder="Nro Documento"></input>
+				</div>
+			</div> -->
+		
+			<!-- ESTADO-->				
+			<div class="form-group">
+				<label for="option" class="control-label col-xs-2 col-md-2 col-md-offset-1">Estado:</label>
+				<div class="col-xs-2 col-md-2">
+					<select class="form-control col-md-offset-1" name="" id="option">
+						<option value="">Todos</option>
+						<option value="">Activo</option>
+						<option value="">Inactivo</option>
+					</select>
+				</div>
+				<div class="col-xs-2 col-md-2 col-xs-offset-6 col-md-offset-5">
+					<button class="btn btn-primary">Buscar</button>
+				</div>
+			</div>						
+
+			<!-- BOTON
+			<div class="form-group">
+				<div class="col-xs-2 col-md-2 col-xs-offset-6 col-md-offset-10">
+					<button class="btn btn-primary">Buscar</button>
+				</div>
+			</div>  -->
+		</form>
+
+
+	</div>
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="bootstrap.min.js"></script>
+</body>
+</html>
